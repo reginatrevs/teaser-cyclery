@@ -1,3 +1,5 @@
+import Countdown from "./countdown";
+
 const sponsors = [
   { name: "Abacus Data", logo: "/sponsors/abacus.png" },
   { name: "The Cyclery", logo: "/sponsors/the-cyclery.png" },
@@ -11,6 +13,7 @@ const sponsors = [
   { name: "HLC", logo: "/sponsors/hlc.png" },
   { name: "Bont", logo: "/sponsors/bont.png" },
   { name: "Skratch Labs", logo: "/sponsors/skratch.png" },
+  { name: "Physio Bike Fitter", logo: "/sponsors/physio-bike-fitter.png" },
 ];
 
 export default function Home() {
@@ -26,7 +29,7 @@ export default function Home() {
             rel="noreferrer"
             className="text-right text-xs font-semibold uppercase tracking-[0.04em] text-[#ff138c] transition hover:text-black"
           >
-            Launch in progress
+            Launching new site
           </a>
         </header>
 
@@ -41,14 +44,19 @@ export default function Home() {
 
           <div className="border-t border-black pt-6">
             <p className="text-lg md:text-xl leading-relaxed">
-              The new Cyclery Racing - Abacus Data website is being built. Team updates,
-              sponsors, riders, results, and season stories are coming soon.
+              We&apos;re launching the new Cyclery Racing website, presented by
+              Abacus Data. Team updates, sponsors, riders, donations, races,
+              and season stories, all in one place.
             </p>
 
             <p className="mt-8 text-sm font-semibold uppercase tracking-[0.04em] text-[#ff138c]">
-              The next chapter is almost ready.
+              Launching June 4 at 6:00 PM EST.
             </p>
           </div>
+        </section>
+
+        <section className="py-20">
+          <Countdown />
         </section>
 
         <section className="border-t border-black py-10">
@@ -90,12 +98,12 @@ export default function Home() {
               vince@thecyclery.ca
             </a>
 
-            <p className="text-xs font-semibold uppercase tracking-[0.04em] mt-5 mb-1 opacity-70">
+            <p className="text-xs font-semibold uppercase tracking-[0.04em] mt-5 mb-1">
               Website & Media
             </p>
             <a
               href="mailto:regina@trevs.ca"
-              className="transition hover:text-[#ff138c]"
+              className="text-xl transition hover:text-[#ff138c]"
             >
               regina@trevs.ca
             </a>
