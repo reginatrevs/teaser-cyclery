@@ -50,7 +50,7 @@ export default function Home() {
             </p>
 
             <p className="mt-8 text-sm font-semibold uppercase tracking-[0.04em] text-[#ff138c]">
-              Launching June 4 at 6:00 PM EST.
+              Launching June 4 at 6:00 PM ET.
             </p>
           </div>
         </section>
