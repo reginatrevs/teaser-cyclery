@@ -33,7 +33,7 @@ export default function Home() {
           </a>
         </header>
 
-        <section className="grid lg:grid-cols-[1.3fr_0.7fr] gap-16 items-end py-24">
+        <section className="grid lg:grid-cols-[1.3fr_0.7fr] gap-10 lg:gap-16 items-end py-10 md:py-24">
           <div>
             <h1 className="text-6xl md:text-8xl lg:text-9xl font-bold tracking-[-0.07em] leading-[0.9]">
               New site.
@@ -55,7 +55,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="py-20">
+        <section className="py-8 md:py-20">
           <Countdown />
         </section>
 
